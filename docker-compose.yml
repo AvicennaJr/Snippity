@@ -1,0 +1,11 @@
+version: '2.16.0'
+services:
+  db:
+    image: mysql:5.7.22
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root 
+    volumes:
+      - .dbdata:/var/lib/mysql
+    ports:
+      - 9000:3306
