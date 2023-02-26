@@ -27,6 +27,10 @@ func (m *SnippetModel) Get(id int) (*Snippet, error) {
 	return nil, nil
 }
 
+func (m *SnippetModel) Latest() ([]*Snippet, error) {
+	return nil, nil
+}
+
 func main() {
 	fmt.Println("vim-go")
 }
