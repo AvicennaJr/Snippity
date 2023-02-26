@@ -19,6 +19,10 @@ type SnippetModel struct {
 	DB *sql.DB
 }
 
+func (m *SnippetModel) Insert(title, content string, expires int) (int, error) {
+	return 0, nil
+}
+
 func main() {
 	fmt.Println("vim-go")
 }
