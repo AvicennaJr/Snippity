@@ -23,6 +23,10 @@ func (m *SnippetModel) Insert(title, content string, expires int) (int, error) {
 	return 0, nil
 }
 
+func (m *SnippetModel) Get(id int) (*Snippet, error) {
+	return nil, nil
+}
+
 func main() {
 	fmt.Println("vim-go")
 }
