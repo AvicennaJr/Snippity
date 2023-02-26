@@ -1,4 +1,4 @@
-module github.com/avicennajr/snippity
+module github.com/AvicennaJr/Snippity
 
 go 1.20
 
