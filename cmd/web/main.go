@@ -7,12 +7,14 @@ import (
 	"net/http"
 	"os"
 
+	"github.com/AvicennaJr/Snippity/internal/models"
 	_ "github.com/go-sql-driver/mysql"
 )
 
 type application struct {
 	errorLog *log.Logger
 	infoLog  *log.Logger
+	snippets *models.SnippetModel
 }
 
 func main() {
